@@ -33,7 +33,9 @@ public class InventorySlot : MonoBehaviour
         }
        if (infoText== null)
         {
-            infoText = GameObject.FindWithTag("Info").GetComponent<TextMeshProUGUI>();
+            GameObject infoTGO = new List<GamrOject>(GameObject.FindGameObejectWithTag("Info"))
+                .Find(g => g.transform.IsChildOf(this.transform));
+            infoTest = infoTGO.GetComponent<TextMeshProUGUI>();
         }
 
     }

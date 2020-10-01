@@ -3107,6 +3107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 811800654}
   - component: {fileID: 811800655}
+  - component: {fileID: 811800656}
   m_Layer: 0
   m_Name: TreasueSite
   m_TagString: LootTable
@@ -3158,6 +3159,31 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9b35772fd2bba4dd1a6a709df0aff03a, type: 2}
   - {fileID: 11400000, guid: 09a7e52a102174014bdb6877b260d41f, type: 2}
   - {fileID: 11400000, guid: 417beb8ec244142b1be300d806b99f75, type: 2}
+  - {fileID: 11400000, guid: 789922e41dbdf4091a965c78343378d7, type: 2}
+  weightedLootItems: []
+  transferance: 
+--- !u!114 &811800656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811800653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240233ba288684a7db3a5e5877575ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootItems:
+  - {fileID: 11400000, guid: 3bc548575b43e4cd5815aa2d0290498d, type: 2}
+  - {fileID: 11400000, guid: 7be725ac046f846d4a417e6f1e70059f, type: 2}
+  - {fileID: 11400000, guid: 86f60535b45b244ffa1ef14f984a903c, type: 2}
+  - {fileID: 11400000, guid: 09a7e52a102174014bdb6877b260d41f, type: 2}
+  - {fileID: 11400000, guid: 417beb8ec244142b1be300d806b99f75, type: 2}
+  - {fileID: 11400000, guid: 789922e41dbdf4091a965c78343378d7, type: 2}
+  - {fileID: 11400000, guid: 86f60535b45b244ffa1ef14f984a903c, type: 2}
+  - {fileID: 11400000, guid: 9b35772fd2bba4dd1a6a709df0aff03a, type: 2}
+  - {fileID: 11400000, guid: 3bc548575b43e4cd5815aa2d0290498d, type: 2}
   - {fileID: 11400000, guid: 789922e41dbdf4091a965c78343378d7, type: 2}
   weightedLootItems: []
   transferance: 
