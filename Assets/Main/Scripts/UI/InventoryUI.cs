@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class InventoryUI : MonoBehaviour
 {
     public GameObject itemButton;
     public GameObject inventoryContent;
     public PlayerManager pm;
-
+    TextMeshPro infoTest;
+    
+    
+    
+    
     void Start()
     {
         pm = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>();

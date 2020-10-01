@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04107a03b2f7424497079463a092dee, type: 3}
+  m_Name: WizardStart
+  m_EditorClassIdentifier: 
+  dialogueID: 
+  DialogueLines:
+  - Toxic or no toxic?
+  - brub
+  - 
+  ResponseOption:
+  - text: 'toxic '
+    nextBranch: {fileID: 11400000, guid: 3b444b257892149338cf455a32073f42, type: 2}
+  - text: no toxic
+    nextBranch: {fileID: 11400000, guid: 11863f4d7354d4e119783a78332ff6e6, type: 2}

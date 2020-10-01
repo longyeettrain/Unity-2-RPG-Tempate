@@ -8,7 +8,7 @@ public class InventorySlot : MonoBehaviour
 {
     public int indexItem;
     public int amount;
-    public TextMeshProUGUI infoText;
+    public TextMeshProUGUI infoText; 
 
     private string itemName;
     private string itemType;
@@ -16,7 +16,9 @@ public class InventorySlot : MonoBehaviour
     private int itemPrice;
 
     public void InitalizeSelf(int currentIndex, PlayerManager player)
+    
     {
+
         indexItem = currentIndex;
         if (currentIndex < player.inventory.Count)
         {
@@ -29,8 +31,12 @@ public class InventorySlot : MonoBehaviour
             indexItem = -1;
             amount = -1;
         }
-    }
+       if (infoText== null)
+        {
+            infoText = GameObject.FindWithTag("Info").GetComponent<TextMeshProUGUI>();
+        }
 
+    }
     public void UpdateSelf(PlayerManager player)
     {
         if (indexItem > -1)
